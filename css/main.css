@@ -220,7 +220,7 @@ p {
 }
 a,
 span.exturl {
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #fff;
   color: var(--link-color);
   outline: 0;
   text-decoration: none;
@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #819c98;
+  background: #be82fe;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1518,6 +1518,7 @@ pre .javascript .function {
 .post-body .exturl .fa {
   font-size: 0.875em;
   margin-left: 4px;
+  color: #428bca;
 }
 .post-body .image-caption,
 .post-body .figure .caption {
@@ -1527,6 +1528,14 @@ pre .javascript .function {
   line-height: 1;
   margin: -20px auto 15px;
   text-align: center;
+}
+.post-body a {
+  text-decoration: none;
+  color: #08c;
+}
+.post-body p {
+  margin: 0 0 15px 0;
+  line-height: 30px;
 }
 .post-sticky-flag {
   display: inline-block;
